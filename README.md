@@ -28,7 +28,7 @@
 <br>
 
 ## 2. <a name='Array'></a>Array
-    [Two_Sum](https://leetcode.com/problems/two-sum/)
+    <p>[Two_Sum](https://leetcode.com/problems/two-sum/)</p>
     [Best_Time_to_Buy_and_Sell_Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
     [Contains_Duplicate](https://leetcode.com/problems/contains-duplicate/)
     [Product_Array_Except_Self](https://leetcode.com/problems/product-of-array-except-self/)
