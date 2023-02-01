@@ -27,8 +27,7 @@
 
 <br>
 
-## 2. <a name='Array'></a>Array
-
+## 2. Array<a name='Array'>
     [Two_Sum](https://leetcode.com/problems/two-sum/)
     [Best_Time_to_Buy_and_Sell_Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
     [Contains_Duplicate](https://leetcode.com/problems/contains-duplicate/)
@@ -39,6 +38,10 @@
     [Search_in_Sorted_Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
     [3Sum](https://leetcode.com/problems/3sum/)
     [Container_with_most_Water](https://leetcode.com/problems/container-with-most-water/)
+</a>
+
+    
+
 
 ## 3. <a name='Binary'></a>Binary
     [Sum_Of_Two_Integers](https://leetcode.com/problems/sum-of-two-integers/)
