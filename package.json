@@ -1,0 +1,23 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "<!-- vscode-markdown-toc --> * 1. [Summary](#Summary) * 2. [Array](#Array) * 3. [Binary](#Binary) * 4. [Dynamic_Programming](#Dynamic_Programming) * 5. [Graph](#Graph) * 6. [Interval](#Interval) * 7. [Linked_List](#Linked_List) * 8. [Matric](#Matrix) * 9. [String](#String) * 10. [Tree](#Tree) * 11. [Heap](#Heap) * 12. [Jest](#Jest) <!-- vscode-markdown-toc-config \tnumbering=true \tautoSave=true \t/vscode-markdown-toc-config --> <!-- /vscode-markdown-toc -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wichen42/dsa_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wichen42/dsa_practice/issues"
+  },
+  "homepage": "https://github.com/wichen42/dsa_practice#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
