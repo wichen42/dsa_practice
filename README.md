@@ -21,5 +21,5 @@
 <p>
     Collection of LeetCode Problems curated by Meta Tech Lead.
     <br>
-    [Blind Article Link](https://www.teamblind.com/postNew-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orE)
+    [Blind Article Link](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 </p>
