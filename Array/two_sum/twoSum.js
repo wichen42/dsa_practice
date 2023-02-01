@@ -37,6 +37,6 @@ function twoSum (nums, target) {
         }
     }
     return res;
-}
+};
 
 module.exports = twoSum;
