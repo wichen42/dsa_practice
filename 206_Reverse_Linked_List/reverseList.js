@@ -10,7 +10,18 @@
 // Output: []
 
 function reverseList(head) {
-    
+    let prev = null;
+    let next = null;
+    let curr = head;
+
+    while (curr) {
+        next = curr.next;
+        curr.next = prev;
+        prev = current;
+        curr = next;
+    }
+
+    return prev;
 };
 
 module.exports = reverseList;
