@@ -22,7 +22,22 @@
 
 
 function isValid(s) {
-    
+    const solutionHash = {
+        '(' : ')',
+        '[' : ']',
+        '{' : '}'
+    };
+    const stack = [];
+
+    for (let i = 0; i < s.length; i++) {
+        if (solutionHash[s[i]]) {
+            stack.push(solutionHash[s[i]]);
+        } else if (s[i] !== stack.pop()) {
+            return false;
+        };
+    };
+    if (stack.length > 0) return false;
+    return true;
 };
 
 module.exports = isValid;
