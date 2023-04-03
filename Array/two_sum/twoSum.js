@@ -26,17 +26,19 @@
 // Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
 function twoSum (nums, target) {
-    const res = [];
+    const values = {};
 
-    for (let i = 0; i < nums.length-1; i++) {
-        let j = i + 1;
-        if (nums[i] + nums[j] === target) {
-            res.push(i);
-            res.push(j);
-            break;
+    for (let i = 0; i < nums.length - 1; i++) {
+        const currentValue = nums[i];
+        const difference = target - currentValue;
+        const idx2 = values[difference];
+
+        if (idx != null) {
+            return [idx2, i];
+        } else {
+            values[currentValue] = i;
         }
-    }
-    return res;
+    };
 };
 
 module.exports = twoSum;
