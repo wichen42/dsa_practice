@@ -15,7 +15,22 @@
 // Output: 1
 
 function maxArea(height) {
+    let area = 0;
+    let left = 0;
+    let right = height.length - 1;
 
+    while (left < right) {
+        let smallestSide = Math.min(height[left], height[right]);
+        let currArea = (right - left) * smallestSide;
+        
+        if (currArea > area) area = currArea;
+        if (height[left] < height[right]) {
+            left++;
+        } else {
+            right--;
+        };
+    };  
+    return area;
 };
 
 module.exports = maxArea;
